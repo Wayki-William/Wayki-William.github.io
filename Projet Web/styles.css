@@ -3,10 +3,11 @@ body {
 	color : #fff;
 	margin : 0;
 	padding : 0;
-	box-sizing : border-box;
-	background-image: url('images/bite.jpg');
-  background-size : 100%;
+	box-sizing : content-box;
+	background-image: url('images/background.jpg');
+  background-size : cover;
   background-attachment: fixed;
+  background-position: center;
 }
 
 header {
@@ -81,7 +82,7 @@ p {
 
 h1 {
   animation-duration: 3s;
-  margin-top:0px;
+  margin: 1%;
 }
 
 @keyframes slidein {
@@ -109,24 +110,22 @@ canvas {
 /* Formes */
 
 .shape0 {
-  float: center;
-  width: 50px;
-  height: 48px;
-  shape-outside: inset(20px 50px 10px 0 round 50px);
   background-color: #a0a0a0;
-  border: 1px solid  #a3a3a3;
-  border-radius: 0px;
+  border: 0px solid  #a3a3a3;
+  background-repeat: no-repeat;
+  max-width: fit-content;
+  align-content: center;
   margin-left: 20px;
-  padding: 0px;
   opacity: 100%;
+  background-position-y: center;
   background-image : url('images/Burger.png');
 
 }
 
 .shape {
   
-  width: 1200px;
-  height: 40px;
+  width: auto;
+  height: auto;
   shape-outside: inset(20px 50px 10px 0 round 50px);
   background-color: #a0a0a0;
   border: 1px solid  #a3a3a3;
@@ -156,7 +155,7 @@ canvas {
   height: 130px;
   shape-outside: inset(20px 50px 10px 0 round 50px);
   background-color:  #616161;
-  border: 1px solid  #5e5e5e;
+  border: 1px solid  #616161;
   border-radius: 10px;
   margin: 20px;
   padding: 20px;
@@ -169,7 +168,7 @@ canvas {
   height: 130px;
   shape-outside: inset(20px 50px 10px 0 round 50px);
   background-color:  #616161;
-  border: 1px solid  #5e5e5e;
+  border: 1px solid  #616161;
   border-radius: 10px;
   margin: 45px;
   padding: 0px;
@@ -182,7 +181,7 @@ canvas {
   height: 150px;
   shape-outside: inset(20px 50px 10px 0 round 50px);
   background-color:  #616161;
-  border: 1px solid  #5e5e5e;
+  border: 1px solid  #616161;
   border-radius: 10px;
   margin: 45px;
   padding: 0px;
@@ -195,7 +194,7 @@ canvas {
   height: 900px;
   shape-outside: inset(20px 50px 10px 0 round 50px);
   background-color:  #616161;
-  border: 1px solid  #5e5e5e;
+  border: 1px solid  #616161;
   border-radius: 30px;
   margin-bottom: 90px;
   padding: 0px;
@@ -208,7 +207,7 @@ canvas {
   height: 200px;
   shape-outside: inset(20px 50px 10px 0 round 50px);
   background-color:  #616161;
-  border: 1px solid  #5e5e5e;
+  border: 1px solid  #616161;
   border-radius: 30px;
   margin: 45px;
   padding: 15px;
@@ -223,7 +222,7 @@ canvas {
   height: 120px;
   shape-outside: inset(20px 50px 10px 0 round 50px);
   background-color:  #616161;
-  border: 1px solid  #5e5e5e;
+  border: 1px solid  #616161;
   border-radius: 10px;
   margin: 20px;
   padding: 20px;
@@ -236,7 +235,7 @@ canvas {
   height: 80px;
   shape-outside: inset(20px 50px 10px 0 round 50px);
   background-color:  #616161;
-  border: 1px solid  #5e5e5e;
+  border: 1px solid  #616161;
   border-radius: 10px;
   margin: 20px;
   padding: 20px;
@@ -249,7 +248,7 @@ canvas {
   height: 80px;
   shape-outside: inset(20px 50px 10px 0 round 50px);
   background-color:  #616161;
-  border: 1px solid  #5e5e5e;
+  border: 1px solid  #616161;
   border-radius: 10px;
   margin: 20px;
   padding: 20px;
@@ -281,10 +280,6 @@ canvas {
   }
 }
 
-.clignotant {
-  animation: clignoter 1s infinite;
-}
-
 /* menu déroulant */ 
 
 label {
@@ -309,6 +304,8 @@ img {
   margin: auto;
   height: 350px;
   overflow: hidden;
+  background-color: #61616198;
+  opacity: 100%;
 }
 .menu {
   position: absolute;
@@ -332,19 +329,19 @@ img {
 }
 .slide-input{
   opacity: 0;
+  background: #616161;
 }
 .slide-img {
   width: 100%;
-  height: 350px;
+  align-self: center;
   position: absolute;
-  top: 0;
+  background-position-y: center;
   left: 100%;
-  z-index: 10;
+  z-index: 0;
   transition: right 3s 1s ease-in;
 }
 [id^="slide"]:checked + .slide-img {
   left: 0;
-  z-index: -100;
   transition: left 0.5s ease-out;
 }
 
@@ -353,5 +350,34 @@ img {
 .wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 100px);
+}
+
+#charmeleon {
+	background-image: url('images/charmeleon.png');
+
+}
+
+#charizard {
+	background-image: url('images/charizard.png');
+
+}
+
+#charmander {
+	background-image: url('images/charmander.png');
+
+}
+
+#squirtle {
+	background-image: url('images/squirtle.png');
+
+}
+
+#wartortle {
+	background-image: url('images/wartortle.png');
+
+}
+
+#blastoise {
+	background-image: url('images/blastoise.png');
+
 }
