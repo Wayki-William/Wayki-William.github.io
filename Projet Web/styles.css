@@ -61,13 +61,6 @@ footer {
 	font-size : 100%;
 }
 
-
-p {
-  animation-duration: 3s;
-  animation-name: slidein;
-  opacity : 100%;
-}
-
 @keyframes slidein {
   from {
     margin-top: 100%;
@@ -305,6 +298,8 @@ img {
   height: 350px;
   overflow: hidden;
   background-color: #61616198;
+  animation-duration: 3s;
+  animation-name: slidein;
   opacity: 100%;
 }
 .menu {
@@ -332,12 +327,12 @@ img {
   background: #616161;
 }
 .slide-img {
-  width: 100%;
-  align-self: center;
   position: absolute;
-  background-position-y: center;
+  width: 100%;
+  height: 100%;
   left: 100%;
   z-index: 0;
+  background-size: contain;
   transition: right 3s 1s ease-in;
 }
 [id^="slide"]:checked + .slide-img {
@@ -352,32 +347,43 @@ img {
   grid-template-columns: repeat(3, 1fr);
 }
 
-#charmeleon {
-	background-image: url('images/charmeleon.png');
-
-}
-
-#charizard {
-	background-image: url('images/charizard.png');
-
-}
-
 #charmander {
 	background-image: url('images/charmander.png');
 
 }
 
-#squirtle {
-	background-image: url('images/squirtle.png');
+#charmeleon {
+	background-image: url('Images/charmeleon.png');
+}
 
+#charizard {
+	background-image: url('Images/charizard.png');
+}
+
+#squirtle {
+	background-image: url('Images/squirtle.png');
 }
 
 #wartortle {
-	background-image: url('images/wartortle.png');
-
+	background-image: url('Images/wartortle.png');
 }
 
 #blastoise {
-	background-image: url('images/blastoise.png');
+	background-image: url('Images/blastoise.png');
+}
 
+#bulbasaur {
+	background-image: url('Images/bulbasaur.png');
+}
+
+#ivysaur {
+	background-image: url('Images/ivysaur.png');
+}
+
+#venusaur {
+	background-image: url('Images/venusaur.png');
+}
+
+.main-text {
+  text-align: center;
 }
