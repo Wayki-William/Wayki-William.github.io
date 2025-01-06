@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie</title>
+    <link rel="stylesheet" href="styles.css">
+	<script src="script.js"></script>
+	<link rel="icon" href="images/Oglt.ico"> 
+</head>
+<body>
+	<header class ="shape">
+		<div class="wrapper">
+		<select name="pages" id="page-select" onchange="navigateToPage()" class="shape0">
+			<option value=""></option>
+			<option value="index.html">Accueil</option>
+			<option value="about.html">À propos</option>
+			<option value="galerie.html">Galerie</option>
+			<option value="contact.html">Contact</option>
+		</select>
+		<center><h1> Wiki Pokémon </h1></center>
+	</div>
+    </header>
+    <main>
+        <h1>Galerie</h1>
+        <p>Voici des photos d'oiseaux pour vous détendre: </p>
+		
+       <div class="slider-container">
+          <div class="menu">
+			<label for="slide-dot-1"></label>
+			<label for="slide-dot-2"></label>
+			<label for="slide-dot-3"></label>
+			<label for="slide-dot-4"></label>
+			<label for="slide-dot-5"></label>
+			<label for="slide-dot-6"></label>
+			<label for="slide-dot-7"></label>
+			<label for="slide-dot-8"></label>
+			<label for="slide-dot-9"></label>
+          </div>
+          
+		    <input class="slide-input" id="slide-dot-1" type="radio" name="slides" checked> 
+			<img class="slide-img" src="https://img.pokemondb.net/sprites/home/normal/bulbasaur.png">
+			<input class="slide-input" id="slide-dot-2" type="radio" name="slides" checked> 
+			<img class="slide-img" src="https://img.pokemondb.net/sprites/home/normal/ivysaur.png">
+			<input class="slide-input" id="slide-dot-3" type="radio" name="slides" checked> 
+			<img class="slide-img" src="https://img.pokemondb.net/sprites/home/normal/venusaur.png">
+			<input class="slide-input" id="slide-dot-4" type="radio" name="slides" checked> 
+			<img class="slide-img" src="https://img.pokemondb.net/sprites/home/normal/charmander.png">
+			<input class="slide-input" id="slide-dot-5" type="radio" name="slides" checked> 
+			<img class="slide-img" src="https://img.pokemondb.net/sprites/home/normal/charmeleon.png">
+			<input class="slide-input" id="slide-dot-6" type="radio" name="slides" checked> 
+			<img class="slide-img" src="https://img.pokemondb.net/sprites/home/normal/charizard.png">
+			<input class="slide-input" id="slide-dot-7" type="radio" name="slides" checked> 
+			<img class="slide-img" src="https://img.pokemondb.net/sprites/home/normal/squirtle.png">
+			<input class="slide-input" id="slide-dot-8" type="radio" name="slides" checked> 
+			<img class="slide-img" src="https://img.pokemondb.net/sprites/home/normal/wartortle.png">
+			<input class="slide-input" id="slide-dot-9" type="radio" name="slides" checked> 
+			<img class="slide-img" src="https://img.pokemondb.net/sprites/home/normal/blastoise.png">
+        </div>
+
+		
+    </main>
+    <footer class="shape2">
+        <p><p class="clignotant">&copy; 2024 Mon Site Internet</p></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,266 @@
+body {
+	font-family : Times New Roman, sans-serif;
+	margin : 0;
+	padding : 0;
+	box-sizing : border-box;
+	background-image: url('images/bite.jpg');
+	background-size : 100%;
+  background-attachment: fixed;
+}
+
+
+header {
+	font-family : Times New Roman, sans-serif;	
+	color : black;
+	padding : 0;
+	margin : 0%;
+	text-align : center;
+	font-size: 110%;
+
+}
+
+nav ul {
+	list-style : none;
+	padding : 0;
+	text-align : center;
+	cursor : help;
+}
+
+nav ul li {
+	display : inline;
+	margin : 0;
+	cursor : help;
+}
+
+nav ul li a {
+	color : black;
+	margin : 10%;
+	text-decoration : underline overline   #696969;
+	cursor : help;
+}
+
+main {
+	color : black;
+	padding : 0;
+	text-align : center;
+
+}
+
+table {
+	border : dotted 3px;
+	margin: 5%;
+}
+
+footer {
+	background-color : #333;
+	color : #fff;
+	opacity: 50%;
+	text-align : center;
+	padding : 0 0;
+	position : fixed;
+	width : 100%;
+	bottom : 0;
+	cursor : grab;
+	font-size : 100%;
+}
+
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+  font-size: 150%;
+}
+
+@keyframes slidein {
+  from {
+    margin-top: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-top: 0%;
+    width: 100%;
+  }
+}
+
+h1 {
+  animation-duration: 3s;
+  margin-top:0px;
+}
+
+@keyframes slidein {
+  from {
+    margin-top: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-top: 0%;
+    width: 100%;
+  }
+}
+
+h2 {
+  animation-duration: 3s;
+  animation-name: slidein;
+  font-size: 300%;
+}
+
+canvas {
+        border: 1px solid black;
+}
+
+
+/* Formes */
+
+.shape0 {
+  float: center;
+  width: 50px;
+  height: 48px;
+  shape-outside: inset(20px 50px 10px 0 round 50px);
+  background-color: #a0a0a0;
+  border: 1px solid  #a3a3a3;
+  border-radius: 0px;
+  margin-left: 20px;
+  padding: 0px;
+  opacity: 100%;
+  background-image : url('images/Burger.png');
+
+}
+
+.shape {
+  
+  width: 1200px;
+  height: 40px;
+  shape-outside: inset(20px 50px 10px 0 round 50px);
+  background-color: #a0a0a0;
+  border: 1px solid  #a3a3a3;
+  border-radius: 20px;
+  padding : 10px;
+  margin: 45px;
+}
+
+.shape2 {
+  float: center;
+  width: 200px;
+  height: 50px;
+  shape-outside: inset(20px 50px 10px 0 round 50px);
+  background-color: #a0a0a0;
+  border: 1px solid  #a3a3a3;
+  border-radius: 30px;
+  margin: 45px;
+  padding: 0px;
+  opacity: 30%;
+}
+
+.shapeline {
+  
+  width: 1200px;
+  height: 1px;
+  shape-outside: inset(20px 50px 10px 0 round 50px);
+  background-color: #333;
+  border: 0px solid  #333;
+  border-radius: 20px;
+  padding : 0,5px;
+  margin: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.shape3 {
+  
+  width: 1200px;
+  height: 150px;
+  shape-outside: inset(20px 50px 10px 0 round 50px);
+  background-color: #a0a0a0;
+  border: 1px solid  #a3a3a3;
+  border-radius: 20px;
+  opacity : 90%;
+  padding : 5px;
+  margin: 45px;
+}
+.shape4 {
+  float: right;
+  width: 100px;
+  height: 50px;
+  shape-outside: inset(20px 50px 10px 0 round 50px);
+  background-color: #a0a0a0;
+  border: 1px solid  #a3a3a3;
+  border-radius: 0px;
+  padding: 0px;
+  opacity: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.shape7 {
+  float: center;
+  width: 800px;
+  height: 290px;
+  shape-outside: inset(20px 50px 10px 0 round 50px);
+  background-color: #a0a0a0;
+  border: 1px solid  #a3a3a3;
+  border-radius: 30px;
+  padding: 10px;
+  opacity: 90%;
+  animation-duration: 1s;
+  animation-name: slidein;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*Animation*/
+@keyframes slidein {
+  from {
+    margin-top: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-top: 153px;
+    width: 100%;
+  }
+}
+
+@keyframes clignoter {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.clignotant {
+  animation: clignoter 1s infinite;
+}
+
+/* Police de caractère */ 
+
+.mea-culpa-regular {
+  font-family: "Mea Culpa", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* menu déroulant */ 
+
+label {
+  font-family: sans-serif;
+  font-size: 1rem;
+  padding-right: 10px;
+}
+
+select {
+  font-size: 0.9rem;
+  padding: 2px 5px;
+}
+
+/*Grid*/
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 100px);
+}
