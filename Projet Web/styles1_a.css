@@ -52,7 +52,7 @@ table {
 }
 
 footer {
-	background-color : #333;
+	background-image: url('images/A.png');
 	color : #fff;
 	opacity: 50%;
 	text-align : center;
@@ -141,10 +141,10 @@ canvas {
 
 .shape2 {
   float: center;
-  width: 200px;
-  height: 50px;
+  width: 75px;
+  height: 75px;
   shape-outside: inset(20px 50px 10px 0 round 50px);
-  background-color: #a0a0a0;
+  background-image: url('images/A.png');
   border: 1px solid  #a3a3a3;
   border-radius: 30px;
   margin: 45px;
