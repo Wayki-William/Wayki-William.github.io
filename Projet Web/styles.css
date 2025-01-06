@@ -142,16 +142,11 @@ canvas {
   opacity: 50%;
 }
 
-.shape3 {
-  float: center;
-  width: 1200px;
-  height: 130px;
-  shape-outside: inset(20px 50px 10px 0 round 50px);
+.gen {
   background-color:  #616161;
-  border: 1px solid  #616161;
   border-radius: 10px;
-  margin: 20px;
   padding: 20px;
+  margin: 2%;
   opacity: 95%
 }
 
@@ -161,7 +156,6 @@ canvas {
   height: 130px;
   shape-outside: inset(20px 50px 10px 0 round 50px);
   background-color:  #616161;
-  border: 1px solid  #616161;
   border-radius: 10px;
   margin: 45px;
   padding: 0px;
@@ -174,7 +168,6 @@ canvas {
   height: 150px;
   shape-outside: inset(20px 50px 10px 0 round 50px);
   background-color:  #616161;
-  border: 1px solid  #616161;
   border-radius: 10px;
   margin: 45px;
   padding: 0px;
@@ -187,7 +180,6 @@ canvas {
   height: 900px;
   shape-outside: inset(20px 50px 10px 0 round 50px);
   background-color:  #616161;
-  border: 1px solid  #616161;
   border-radius: 30px;
   margin-bottom: 90px;
   padding: 0px;
@@ -200,52 +192,36 @@ canvas {
   height: 200px;
   shape-outside: inset(20px 50px 10px 0 round 50px);
   background-color:  #616161;
-  border: 1px solid  #616161;
   border-radius: 30px;
   margin: 45px;
   padding: 15px;
-  opacity: 90%;
+  opacity: 88%;
   animation-duration: 1s;
   animation-name: slidein;
 }
 
-.shape8 {
-  float: center;
-  width: 1200px;
-  height: 120px;
-  shape-outside: inset(20px 50px 10px 0 round 50px);
+.concept-intro {
   background-color:  #616161;
-  border: 1px solid  #616161;
   border-radius: 10px;
-  margin: 20px;
   padding: 20px;
-  opacity: 95%
+  margin: 2%;
+  opacity: 88%
 }
 
-.shape9 {
-  float: center;
-  width: 1200px;
-  height: 80px;
-  shape-outside: inset(20px 50px 10px 0 round 50px);
+.pokeballs {
   background-color:  #616161;
-  border: 1px solid  #616161;
   border-radius: 10px;
-  margin: 20px;
   padding: 20px;
-  opacity: 95%
+  margin: 2%;
+  opacity: 88%
 }
 
-.shape10 {
-  float: center;
-  width: 1200px;
-  height: 80px;
-  shape-outside: inset(20px 50px 10px 0 round 50px);
+.types {
   background-color:  #616161;
-  border: 1px solid  #616161;
   border-radius: 10px;
-  margin: 20px;
   padding: 20px;
-  opacity: 95%
+  margin: 2%;
+  opacity: 88%
 }
 
 /*Animation*/
@@ -300,7 +276,6 @@ img {
   background-color: #61616198;
   animation-duration: 3s;
   animation-name: slidein;
-  opacity: 100%;
 }
 .menu {
   position: absolute;
