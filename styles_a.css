@@ -10,10 +10,6 @@ body {
   background-position: center;
 }
 
-html{
-  scroll-behavior: smooth;
-}
-
 header {
 	background-color : #333;
 	color : #fff;
@@ -123,7 +119,7 @@ canvas {
   
   width: auto;
   height: auto;
-  shape-outside: inset(20px 50px 10px 0 round 50px);
+  clip-path: inset(5px 10px 5px 0 round 20px);  
   background-color: #a0a0a0;
   border: 1px solid  #a3a3a3;
   border-radius: 20px;
@@ -133,10 +129,10 @@ canvas {
 
 
 .shape2 {
-  float: center;
+  justify-items: center;
   width: 48px;
   height: 48px;
-  shape-outside: inset(20px 50px 10px 0 round 50px);
+  clip-path: inset(5px 10px 5px 0 round 20px);  
   background-image: url('images/AA.webp');
   background-size: 100%;
   border: 1px solid  #a3a3a3;
@@ -155,10 +151,10 @@ canvas {
 }
 
 .shape4 {
-  float: center;
+  justify-items: center;
   width: 1200px;
   height: 130px;
-  shape-outside: inset(20px 50px 10px 0 round 50px);
+  clip-path: inset(5px 10px 5px 0 round 20px);  
   background-color:  #616161;
   border-radius: 10px;
   margin: 45px;
@@ -167,10 +163,10 @@ canvas {
 }
 
 .shape5 {
-  float: center;
+  justify-items: center;
   width: 200px;
   height: 150px;
-  shape-outside: inset(20px 50px 10px 0 round 50px);
+  clip-path: inset(5px 10px 5px 0 round 20px);  
   background-color:  #616161;
   border-radius: 10px;
   margin: 45px;
@@ -179,10 +175,10 @@ canvas {
 }
 
 .shape6 {
-  float: center;
+  justify-items: center;
   width: 250px;
   height: 900px;
-  shape-outside: inset(20px 50px 10px 0 round 50px);
+  clip-path: inset(5px 10px 5px 0 round 20px);  
   background-color:  #616161;
   border-radius: 30px;
   margin-bottom: 90px;
@@ -191,10 +187,10 @@ canvas {
 }
 
 .shape7 {
-  float: center;
+  justify-items: center;
   width: 500px;
   height: 200px;
-  shape-outside: inset(20px 50px 10px 0 round 50px);
+  clip-path: inset(5px 10px 5px 0 round 20px);  
   background-color:  #616161;
   border-radius: 30px;
   margin: 45px;
@@ -202,6 +198,17 @@ canvas {
   opacity: 88%;
   animation-duration: 1s;
   animation-name: slidein;
+}
+
+.shape8 {
+  justify-items: center;
+  width: 45px;
+  height: 45px;
+  clip-path: inset(5px 10px 5px 0 round 20px);  
+  background-color:  #616161;
+  opacity: 88%;
+  margin-left: 95%;
+  margin-bottom: 2%;
 }
 
 .concept-intro {
@@ -296,7 +303,6 @@ img {
   height: 15px;
   background: #ccc;
   border-radius: 50px;
-  margin: 4 2.2em 1em;
 }
 .menu label:hover,.menu label:focus {
   background: #1c87c9;

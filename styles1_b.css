@@ -118,10 +118,10 @@ canvas {
 /* Formes */
 
 .shape0 {
-  float: center;
+  justify-content: center;
   width: 50px;
   height: 48px;
-  shape-outside: inset(20px 50px 10px 0 round 50px);
+  clip-path: inset(5px 10px 5px 0 round 20px);
   background-color: #a0a0a0;
   border: 1px solid  #a3a3a3;
   border-radius: 0px;
@@ -136,7 +136,7 @@ canvas {
   
   width: 1200px;
   height: 40px;
-  shape-outside: inset(20px 50px 10px 0 round 50px);
+  clip-path: inset(5px 10px 5px 0 round 20px);
   background-color: #a0a0a0;
   border: 1px solid  #a3a3a3;
   border-radius: 20px;
@@ -145,10 +145,10 @@ canvas {
 }
 
 .shape2 {
-  float: center;
+  justify-content: center;
   width: 200px;
   height: 50px;
-  shape-outside: inset(20px 50px 10px 0 round 50px);
+  clip-path: inset(5px 10px 5px 0 round 20px);
   background-color:  #616161;
   border-radius: 10px;
   margin: 45px;
@@ -161,33 +161,30 @@ canvas {
   
   width: 1200px;
   height: 1px;
-  shape-outside: inset(20px 50px 10px 0 round 50px);
+  clip-path: inset(5px 10px 5px 0 round 20px);
   background-color: #333;
   border: 0px solid  #333;
   border-radius: 20px;
-  padding : 0,5px;
+  padding : 0.5px;
   margin: 100px;
   margin-left: auto;
   margin-right: auto;
 }
 
+
 .shape3 {
-  
-  width: 1200px;
-  height: 150px;
-  shape-outside: inset(20px 50px 10px 0 round 50px);
   background-color: #a0a0a0;
-  border: 1px solid  #a3a3a3;
-  border-radius: 20px;
-  opacity : 90%;
-  padding : 5px;
-  margin: 45px;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 2%;
+  opacity: 88%
 }
+
 .shape4 {
   float: right;
   width: 100px;
   height: 50px;
-  shape-outside: inset(20px 50px 10px 0 round 50px);
+  clip-path: inset(5px 10px 5px 0 round 20px);
   background-color: #a0a0a0;
   border: 1px solid  #a3a3a3;
   border-radius: 0px;
@@ -198,20 +195,13 @@ canvas {
 
 }
 .shape7 {
-  float: center;
-  width: 800px;
-  height: 290px;
-  shape-outside: inset(20px 50px 10px 0 round 50px);
   background-color: #a0a0a0;
-  border: 1px solid  #a3a3a3;
-  border-radius: 30px;
-  padding: 10px;
-  opacity: 90%;
-  animation-duration: 1s;
-  animation-name: slidein;
-  margin-left: auto;
-  margin-right: auto;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 2%;
+  opacity: 88%
 }
+
 /*Animation*/
 @keyframes slidein {
   from {
@@ -220,10 +210,11 @@ canvas {
   }
 
   to {
-    margin-top: 153px;
+    margin-top: 0px;
     width: 100%;
   }
 }
+
 
 @keyframes clignoter {
   0% {
@@ -240,15 +231,6 @@ canvas {
 .clignotant {
   animation: clignoter 1s infinite;
 }
-
-/* Police de caractère */ 
-
-.mea-culpa-regular {
-  font-family: "Mea Culpa", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-
 
 /* menu déroulant */ 
 
