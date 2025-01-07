@@ -1,0 +1,392 @@
+body {
+	font-family : Times New Roman, sans-serif;
+	color : #fff;
+	margin : 0;
+	padding : 0;
+	box-sizing : content-box;
+	background-image: url('images/background.jpg');
+  background-size : cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+header {
+	background-color : #333;
+	color : #fff;
+	padding : 0 0;
+	font-family : Times New Roman, sans-serif;	
+	margin : 0%;
+	text-align : center;
+	font-size: 110%;
+
+}
+
+nav ul {
+	list-style : none;
+	padding : 0;
+	text-align : center;
+	cursor : help;
+}
+
+nav ul li {
+	display : inline;
+	margin : 0;
+	cursor : help;
+}
+
+nav ul li a {
+	color : #fff;
+	margin : 10%;
+  background-color: #3a3a3a;
+	cursor : help;
+}
+
+main {
+	padding : 2rem;
+	text-align : left;
+	color : white;
+	padding : 0;
+	text-align : center;
+}
+
+table {
+	border : dotted 3px;
+	margin: 5%;
+}
+
+footer {
+	background-color : #333;
+	color : #fff;
+	opacity: 50%;
+	text-align : center;
+	padding : 0 0;
+	position : fixed;
+	width : 100%;
+	bottom : 0;
+	cursor : grab;
+	font-size : 100%;
+	background-image: url('images/A.png');
+}
+
+@keyframes slidein {
+  from {
+    margin-top: 100%;
+  }
+
+  to {
+    margin-top: 0%;
+  }
+}
+
+.text {
+  color: #FFFFFF;
+}
+
+.anti-text  {
+  color: #000000;
+}
+
+h1 {
+  animation-duration: 1.5s;
+  margin: 1%;
+  margin-top:0px;
+  width: 100%;
+}
+
+h2 {
+  animation-duration: 1.5s;
+  animation-name: slidein;
+  font-size: 300%;
+}
+
+.form-main-container {
+  height: fit-content;
+}
+
+.form-main {
+  height: 100%;
+  font-size: 300%;
+}
+
+canvas {
+        border: 1px solid black;
+}
+
+
+/* Formes */
+
+.burger {
+
+  background-color: #3a3a3a;
+  background-repeat: no-repeat;
+  border-color: #3a3a3a;
+  width: fit-content;
+  align-content: center;
+  margin-left: 20px;
+  background-position-y: center;
+  background-image : url('images/menu-icon.svg');
+
+}
+
+.bar {
+  width: auto;
+  height: auto;
+
+  background-color: #3a3a3a;
+  border-radius: 20px;
+  padding : 10px;
+  margin: 45px;
+}
+
+.shape-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 1%;
+
+}
+
+.shape {
+  width: fit-content;
+  height: fit-content;
+
+  background-color: #3a3a3a;
+  border-radius: 10px;
+  padding: 0.5%;
+  opacity: 88%
+}
+
+.gen {
+
+  background-color: #3a3a3a;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 2%;
+  opacity: 88%
+}
+
+.switch {
+  width: fit-content;
+  height: auto;
+  justify-content: center;
+  background-color: #3a3a3a;
+  border-radius: 10px;
+  padding: 0px;
+  opacity: 90%
+}
+
+.switchButton {
+  width: auto;
+  height: 100%;
+  background-color: #a0a0a0;
+  border-radius: 10px;
+  padding: 1%;
+  opacity: 90%
+}
+.shape5 {
+  justify-items: center;
+  width: 200px;
+  height: 150px;
+  clip-path: inset(5px 10px 5px 0 round 20px);  
+  background-color: #3a3a3a;
+  border-radius: 10px;
+  margin: 45px;
+  padding: 0px;
+  opacity: 90%
+}
+
+.shape6 {
+  justify-items: center;
+  width: 250px;
+  height: 900px;
+  clip-path: inset(5px 10px 5px 0 round 20px);  
+  background-color: #3a3a3a;
+  border-radius: 30px;
+  margin-bottom: 90px;
+  padding: 0px;
+  opacity: 90%
+}
+
+.form-container {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+}
+
+.formulary {
+  width: fit-content;
+  height: fit-content;
+
+  background-color: #3a3a3a;
+  border-radius: 30px;
+  padding: 15px;
+  opacity: 88%;
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+
+.concept-intro {
+
+  background-color: #3a3a3a;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 2%;
+  opacity: 88%
+}
+
+.pokeballs {
+
+  background-color: #3a3a3a;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 2%;
+  opacity: 88%
+}
+
+.types {
+
+  background-color: #3a3a3a;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 2%;
+  opacity: 88%;
+}
+
+.type {
+  max-width:70%;
+}
+
+@keyframes clignoter {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Police de caractère */ 
+
+.mea-culpa-regular {
+  font-family: "Mea Culpa", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* menu déroulant */ 
+
+label {
+  font-family: sans-serif;
+  font-size: 1rem;
+  padding-right: 10px;
+}
+
+select {
+  font-size: 0.9rem;
+  padding: 2px 5px;
+}
+
+/* Carrousel */
+
+img {
+  max-width: 100%;
+}
+.slider-container {
+  max-width: 350px;
+  position: relative;
+  margin: auto;
+  height: 350px;
+  overflow: hidden;
+  background-color: #61616198;
+  animation-duration: 1.5s;
+  animation-name: slidein;
+}
+.menu {
+  position: absolute;
+  left: 0;
+  z-index: 11;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+}
+.menu label {
+  cursor: pointer;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: #ccc;
+  border-radius: 50px;
+}
+.menu label:hover,.menu label:focus {
+  background: #1c87c9;
+}
+.slide-input{
+  opacity: 0;
+  background: #616161;
+}
+.slide-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 100%;
+  z-index: 0;
+  background-size: contain;
+  transition: right 3s 1s ease-in;
+}
+[id^="slide"]:checked + .slide-img {
+  left: 0;
+  transition: left 0.5s ease-out;
+}
+
+/* Pour mettre les élément sur une seul ligne */
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+#charmander {
+	background-image: url('images/charmander.png');
+
+}
+
+#charmeleon {
+	background-image: url('Images/charmeleon.png');
+}
+
+#charizard {
+	background-image: url('Images/charizard.png');
+}
+
+#squirtle {
+	background-image: url('Images/squirtle.png');
+}
+
+#wartortle {
+	background-image: url('Images/wartortle.png');
+}
+
+#blastoise {
+	background-image: url('Images/blastoise.png');
+}
+
+#bulbasaur {
+	background-image: url('Images/bulbasaur.png');
+}
+
+#ivysaur {
+	background-image: url('Images/ivysaur.png');
+}
+
+#venusaur {
+	background-image: url('Images/venusaur.png');
+}
+
+.main-text {
+  text-align: center;
+}
