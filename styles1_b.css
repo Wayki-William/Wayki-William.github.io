@@ -113,10 +113,10 @@ canvas {
 /* Formes */
 
 .shape0 {
-  float: center;
+  margin-left: auto;
+  margin-right: auto;
   width: 50px;
   height: 48px;
-  shape-outside: inset(20px 50px 10px 0 round 50px);
   background-color: #a0a0a0;
   border: 1px solid  #a3a3a3;
   border-radius: 0px;
@@ -131,7 +131,6 @@ canvas {
   
   width: 1200px;
   height: 40px;
-  shape-outside: inset(20px 50px 10px 0 round 50px);
   background-color: #a0a0a0;
   border: 1px solid  #a3a3a3;
   border-radius: 20px;
@@ -140,10 +139,10 @@ canvas {
 }
 
 .shape2 {
-  float: center;
+  margin-left: auto;
+  margin-right: auto;
   width: 200px;
   height: 50px;
-  shape-outside: inset(20px 50px 10px 0 round 50px);
   background-color: #a0a0a0;
   border: 1px solid  #a3a3a3;
   border-radius: 30px;
@@ -156,11 +155,10 @@ canvas {
   
   width: 1200px;
   height: 1px;
-  shape-outside: inset(20px 50px 10px 0 round 50px);
   background-color: #333;
   border: 0px solid  #333;
   border-radius: 20px;
-  padding : 0,5px;
+  padding : 05px;
   margin: 100px;
   margin-left: auto;
   margin-right: auto;
@@ -170,7 +168,6 @@ canvas {
   
   width: 1200px;
   height: 150px;
-  shape-outside: inset(20px 50px 10px 0 round 50px);
   background-color: #a0a0a0;
   border: 1px solid  #a3a3a3;
   border-radius: 20px;
@@ -182,7 +179,6 @@ canvas {
   float: right;
   width: 100px;
   height: 50px;
-  shape-outside: inset(20px 50px 10px 0 round 50px);
   background-color: #a0a0a0;
   border: 1px solid  #a3a3a3;
   border-radius: 0px;
@@ -193,10 +189,10 @@ canvas {
 
 }
 .shape7 {
-  float: center;
+  margin-left: auto;
+  margin-right: auto;
   width: 800px;
   height: 290px;
-  shape-outside: inset(20px 50px 10px 0 round 50px);
   background-color: #a0a0a0;
   border: 1px solid  #a3a3a3;
   border-radius: 30px;
