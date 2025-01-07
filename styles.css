@@ -10,6 +10,10 @@ body {
   background-position: center;
 }
 
+.ancrage{
+  justify-content: right;
+}
+
 html{
   scroll-behavior: smooth;
 }
@@ -295,7 +299,7 @@ img {
   height: 15px;
   background: #ccc;
   border-radius: 50px;
-  margin: 4 2.2em 1em;
+  margin: 4em 2.2em 1em;
 }
 .menu label:hover,.menu label:focus {
   background: #1c87c9;
