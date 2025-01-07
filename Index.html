@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Accueil</title>
+    <link id="stylesheet" rel="stylesheet" href="styles1_a.css">
+	<script src="script.js"></script>
+	<link rel="icon" href="images/Oglt.ico"> 
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap" rel="stylesheet">
+</head>	
+<body>
+    <header class ="shape">
+		<div class="wrapper">
+		<select name="pages" id="page-select" onchange="navigateToPage()" class="shape0">
+			<option value=""></option>
+			<option value="index.html">Accueil</option>
+			<option value="resumegen.html">Résumé 1er gen</option>
+			<option value="pokédex.html">Pokédex</option>
+		</select>
+		<center><h1> Wiki Pokémon </h1></center>
+		<div class = "shape4"><button onclick="switchStyle()"> Mode Sombre/Clair</button>
+	</div>
+    </header>
+    <main>
+		<h2> Explorez le monde fabuleux des Pokémon </h2>
+		<div class="shapeline"></div>
+			<video width="640" height="360" controls>
+				<source src="Images/générique.mp4" type="video/mp4">
+				<track src="test.vtt" kind="subtitles" srclang="fr" label="Français" default>
+				Your browser does not support the video tag.
+			</video>
+		<div class="shapeline"></div>
+		<div class="shape3">
+			<p> Connaissez-vous le monde des Pocket Monsters, Aka Pokémon ? <p>
+			<p> Bienvenue sur ce wiki Pokémon, écrit par des fans de Pokémon, contenant des informations sur de nombreux domaines Pokémon, vous y trouverais surement
+			votre bonheur</p>
+		</div>
+	
+	<div class="shape7">
+		<h2><u>Donner nous votre avis :</u></h2>
+		<form id="form" action="mailto:evancoulpotin.sup@gmail.com?content-type=text/html&amp;subject=Site%20Web" method="post" enctype="text/plain">
+			<p>
+				<label for="prenom">Prénom</label><input id="prenom" type="text" name="prenom" value=" ">
+				<label for="nom">Nom</label><input id="nom" type="text" name="nom" value=" "><br>
+				<input id="sexeHomme" type="radio" name="sexe" value="homme"><label for="sexeHomme">Homme</label> 
+				<input id="sexeFemme" type="radio" name="sexe" value="femme"><label for="sexeFemme">Femme</label>
+				<input id="sexeRadiateur" type="radio" name="sexe" value="Autres"><label for="sexeRadiateur">Autres</label><br>
+				<textarea name="impression" rows="5" cols="50"></textarea>
+				<input type="submit" value="Envoyer">
+			</p>
+		</form>
+	</div>
+		
+    </main>
+</body>
+</html>
