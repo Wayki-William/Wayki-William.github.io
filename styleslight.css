@@ -111,6 +111,8 @@ h2 {
 .video 
 {
   justify-content: center;
+  width: 65%;
+  height: auto;
 }
 
 canvas {

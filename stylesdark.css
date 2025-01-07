@@ -108,6 +108,13 @@ h2 {
   font-size: 300%;
 }
 
+.video 
+{
+  justify-content: center;
+  width: 65%;
+  height: auto;
+}
+
 canvas {
         border: 1px solid black;
 }
