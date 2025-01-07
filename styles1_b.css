@@ -10,6 +10,9 @@ body {
   background-position: center;
 }
 
+html{
+  scroll-behavior: smooth;
+}
 
 header {
 	font-family : Times New Roman, sans-serif;	
