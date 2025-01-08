@@ -24,10 +24,10 @@ function navigateToPage() {
 
 function switchStyle() {
     var stylesheet = document.getElementById('stylesheet');
-    if (stylesheet.getAttribute('href') === 'styleslight.css') {
-        stylesheet.setAttribute('href', 'stylesdark.css');
+    if (stylesheet.getAttribute('href') === '../css/styleslight.css') {
+        stylesheet.setAttribute('href', '../css/stylesdark.css');
     } else {
-        stylesheet.setAttribute('href', 'styleslight.css');
+        stylesheet.setAttribute('href', '../css/styleslight.css');
     }
 }
 
