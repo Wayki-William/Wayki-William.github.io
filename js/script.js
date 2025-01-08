@@ -23,10 +23,12 @@ function navigateToPage() {
 
 function switchStyle() {
     var stylesheet = document.getElementById('stylesheet');
-    if (stylesheet.getAttribute('href') === '../css/styleslight.css') {
-        stylesheet.setAttribute('href', '../css/stylesdark.css');
-    } else {
-        stylesheet.setAttribute('href', '../css/styleslight.css');
+    var currentHref = stylesheet.getAttribute('href');
+
+    if (currentHref === 'css/styleslight.css' || currentHref === '../css/styleslight.css') {// On remplace dans le href light par dark ou inversement
+        stylesheet.setAttribute('href', currentHref.replace('light', 'dark'));
+    } else if (currentHref === 'css/stylesdark.css' || currentHref === '../css/stylesdark.css') { 
+        stylesheet.setAttribute('href', currentHref.replace('dark', 'light'));
     }
 }
 
