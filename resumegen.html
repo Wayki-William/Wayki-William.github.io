@@ -1,25 +1,39 @@
 <!DOCTYPE html>
 <html lang="fr">
+    <script>
+        window.onload = function() {
+            const selectElement = document.getElementById('page-select');
+            
+            const currentPage = window.location.pathname.split('/').pop();
+    
+            for (let i = 0; i < selectElement.options.length; i++) {
+                if (selectElement.options[i].value === currentPage) {
+                    selectElement.selectedIndex = i;
+                    break;
+                }
+            }
+        };
+    </script>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resumé 1er gen</title>
-    <link id="stylesheet" rel="stylesheet" href="styles_a.css">
-    <script src="scriptbis.js"></script>
+    <link id="stylesheet" rel="stylesheet" href="styleslight.css">
+    <script src="script.js"></script>
     <link rel="icon" href="images/Oglt.ico">
 </head>
 <body>
     <a id="haut"></a>
-    <header class="shape">
+    <header class="bar">
         <div class="wrapper">
-            <select name="pages" id="page-select" onchange="navigateToPage()" class="shape0">
-                <option value="resumegen.html">Résumé 1er gen</option>
-                <option value="pokédex.html">Pokédex</option>
-                <option value="index.html">Accueil</option>
+            <select name="pages" id="page-select" onchange="navigateToPage()" class="burger">
+                <option class="text" value="index.html">Accueil</option>
+                <option class="text" value="resumegen.html">Résumé 1er gen</option>
+                <option class="text" value="pokedex.html">Pokédex</option>
             </select>
-            <h1> Wiki Pokémon </h1>
-            <div class="shape11">
-                <button onclick="switchStyle()"> Mode Sombre/Clair</button>
+            <h1 class="text"> Wiki Pokémon </h1>
+            <div class="switch">
+                <button class="switchButton anti-text" onclick="switchStyle()"> Mode Sombre/Clair</button>
             </div>
         </div>
     </header>
