@@ -73,7 +73,7 @@ footer {
 	bottom : 0;
 	cursor : grab;
 	font-size : 100%;
-	background-image: url('../images/A.png');
+	background-image: url('images/A.png');
 }
 
 @keyframes slidein {
@@ -102,8 +102,6 @@ h1 {
 }
 
 h2 {
-  animation-duration: 1.5s;
-  animation-name: slidein;
   font-size: 200%;
 }
 
@@ -133,14 +131,20 @@ canvas {
 .burger {
   background-color: #3a3a3a;
   background-repeat: no-repeat;
-  color: #a0a0a000;
+  color: #3a3a3a00;
   border-width: 0;
   width: fit-content;
   align-content: center;
   margin-left: 20px;
+  font-size: 20px;
   background-position-y: center;
   background-image : url('../images/menu-icon.png');
 
+}
+
+.hide-alt {
+  font-size: 0; /* Réduit la taille du texte */
+  color: transparent; /* Rend le texte invisible */
 }
 
 .bar {
@@ -289,12 +293,14 @@ select {
 img {
   max-width: 100%;
 }
+
 .slider-container {
   max-width: 350px;
   position: relative;
   margin: auto;
   height: 350px;
   overflow: hidden;
+  background-size: contain;
   background-color: #61616198;
   animation-duration: 1.5s;
   animation-name: slidein;
@@ -383,4 +389,18 @@ img {
 
 .main-text {
   text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 25px;
+  }
+
+  .bar {
+    margin: 20px;
+  }
+
+  .burger { 
+    font-size: 2vw;
+  }
 }
