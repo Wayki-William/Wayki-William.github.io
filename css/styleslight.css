@@ -187,29 +187,6 @@ canvas {
   padding: 1%;
   opacity: 90%
 }
-.shape5 {
-  justify-items: center;
-  width: 200px;
-  height: 150px;
-  clip-path: inset(5px 10px 5px 0 round 20px); 
-  background-color: #a0a0a0;
-  border-radius: 10px;
-  margin: 45px;
-  padding: 0px;
-  opacity: 90%
-}
-
-.shape6 {
-  justify-items: center;
-  width: 250px;
-  height: 900px;
-  clip-path: inset(5px 10px 5px 0 round 20px); 
-  background-color: #a0a0a0;
-  border-radius: 30px;
-  margin-bottom: 90px;
-  padding: 0px;
-  opacity: 90%
-}
 
 .form-container {
   width: 100%;
