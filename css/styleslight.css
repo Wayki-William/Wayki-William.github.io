@@ -143,6 +143,11 @@ canvas {
 
 }
 
+.hide-alt {
+  font-size: 0; /* Réduit la taille du texte */
+  color: transparent; /* Rend le texte invisible */
+}
+
 .bar {
   width: auto;
   height: auto;
