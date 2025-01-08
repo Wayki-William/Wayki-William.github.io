@@ -16,7 +16,6 @@ window.onload = function() {
 function navigateToPage() {
 	const selectElement = document.getElementById('page-select');
     const selectedValue = selectElement.value;
-    console.log('Navigating to:', selectedValue);  // Affiche le chemin sélectionné
     if (selectedValue) {
         window.location.href = selectedValue;
 	}
