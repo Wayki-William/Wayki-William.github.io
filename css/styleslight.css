@@ -138,6 +138,7 @@ canvas {
   width: fit-content;
   align-content: center;
   margin-left: 20px;
+  font-size: 2vw;
   background-position-y: center;
   background-image : url('../images/menu-icon.png');
 
@@ -390,4 +391,14 @@ img {
 
 .main-text {
   text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 25px;
+  }
+
+  .bar {
+    margin: 20px;
+  }
 }
