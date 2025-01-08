@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
 	font-family : Times New Roman, sans-serif;
 	color : #fff;
@@ -65,7 +69,7 @@ footer {
 	bottom : 0;
 	cursor : grab;
 	font-size : 100%;
-	background-image: url('images/A.png');
+	background-image: url('../images/A.png');
 }
 
 @keyframes slidein {
@@ -328,40 +332,40 @@ img {
 }
 
 #charmander {
-	background-image: url('images/charmander.png');
+	background-image: url('../images/charmander.png');
 
 }
 
 #charmeleon {
-	background-image: url('Images/charmeleon.png');
+	background-image: url('../images/charmeleon.png');
 }
 
 #charizard {
-	background-image: url('Images/charizard.png');
+	background-image: url('../images/charizard.png');
 }
 
 #squirtle {
-	background-image: url('Images/squirtle.png');
+	background-image: url('../images/squirtle.png');
 }
 
 #wartortle {
-	background-image: url('Images/wartortle.png');
+	background-image: url('../images/wartortle.png');
 }
 
 #blastoise {
-	background-image: url('Images/blastoise.png');
+	background-image: url('../images/blastoise.png');
 }
 
 #bulbasaur {
-	background-image: url('Images/bulbasaur.png');
+	background-image: url('../images/bulbasaur.png');
 }
 
 #ivysaur {
-	background-image: url('Images/ivysaur.png');
+	background-image: url('../images/ivysaur.png');
 }
 
 #venusaur {
-	background-image: url('Images/venusaur.png');
+	background-image: url('../images/venusaur.png');
 }
 
 .main-text {
