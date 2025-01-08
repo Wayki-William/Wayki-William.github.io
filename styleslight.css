@@ -89,14 +89,14 @@ footer {
 h1 {
   animation-duration: 1.5s;
   margin: 1%;
-  margin-top:0px;
+  font-size: 40px;
   width: 100%;
 }
 
 h2 {
   animation-duration: 1.5s;
   animation-name: slidein;
-  font-size: 300%;
+  font-size: 200%;
 }
 
 .form-main-container {
@@ -116,7 +116,7 @@ h2 {
 }
 
 canvas {
-        border: 1px solid black;
+  border: 1px solid black;
 }
 
 
