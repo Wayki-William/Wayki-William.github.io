@@ -111,7 +111,7 @@ h2 {
 .video 
 {
   justify-content: center;
-  width: 65%;
+  width: 70%;
   height: auto;
 }
 
@@ -130,7 +130,7 @@ canvas {
   align-content: center;
   margin-left: 20px;
   background-position-y: center;
-  background-image : url('images/menu-icon.svg');
+  background-image : url('images/menu-icon.png');
 
 }
 
