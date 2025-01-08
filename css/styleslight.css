@@ -4,7 +4,7 @@ body {
 	margin : 0;
 	padding : 0;
 	box-sizing : content-box;
-	background-image: url("../images/background.jpg");
+	background-image: url('../images/background.jpg');
   background-size : cover;
   background-attachment: fixed;
   background-position: center;
@@ -187,29 +187,6 @@ canvas {
   padding: 1%;
   opacity: 90%
 }
-.shape5 {
-  justify-items: center;
-  width: 200px;
-  height: 150px;
-  clip-path: inset(5px 10px 5px 0 round 20px); 
-  background-color: #a0a0a0;
-  border-radius: 10px;
-  margin: 45px;
-  padding: 0px;
-  opacity: 90%
-}
-
-.shape6 {
-  justify-items: center;
-  width: 250px;
-  height: 900px;
-  clip-path: inset(5px 10px 5px 0 round 20px); 
-  background-color: #a0a0a0;
-  border-radius: 30px;
-  margin-bottom: 90px;
-  padding: 0px;
-  opacity: 90%
-}
 
 .form-container {
   width: 100%;
@@ -356,35 +333,35 @@ img {
 }
 
 #charmeleon {
-	background-image: url('Images/charmeleon.png');
+	background-image: url('images/charmeleon.png');
 }
 
 #charizard {
-	background-image: url('Images/charizard.png');
+	background-image: url('images/charizard.png');
 }
 
 #squirtle {
-	background-image: url('Images/squirtle.png');
+	background-image: url('images/squirtle.png');
 }
 
 #wartortle {
-	background-image: url('Images/wartortle.png');
+	background-image: url('images/wartortle.png');
 }
 
 #blastoise {
-	background-image: url('Images/blastoise.png');
+	background-image: url('images/blastoise.png');
 }
 
 #bulbasaur {
-	background-image: url('Images/bulbasaur.png');
+	background-image: url('images/bulbasaur.png');
 }
 
 #ivysaur {
-	background-image: url('Images/ivysaur.png');
+	background-image: url('images/ivysaur.png');
 }
 
 #venusaur {
-	background-image: url('Images/venusaur.png');
+	background-image: url('images/venusaur.png');
 }
 
 .main-text {
