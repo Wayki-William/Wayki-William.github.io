@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link id="stylesheet" rel="stylesheet" href="styleslight.css">
+    <script src="script.js"></script>
+    <link rel="icon" href="images/Oglt.ico"> 
+</head>
+<body>
+    <a id="haut"></a>
+    <header class="bar">
+        <div class="wrapper">
+            <select name="pages" id="page-select" onchange="navigateToPage()" class="burger">
+                <option class="text" value="index.html">Accueil</option>
+                <option class="text" value="resumegen.html">Résumé 1er gen</option>
+                <option class="text" value="pokedex.html">Pokédex</option>
+            </select>
+            <h1 class="text"> Wiki Pokémon </h1>
+            <div class="switch">
+                <button class="switchButton anti-text" onclick="switchStyle()"> Mode Sombre/Clair</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h2>Pokédex</h2>
+        <p> Vous retrouverez sur cet page un extrait du <a href="https://www.pokemon.com/fr/pokedex">Pokédex</a></p>
+        
+        <div class="slider-container">
+            <div class="menu">
+                <label for="slide-dot-1"></label>
+                <label for="slide-dot-2"></label>
+                <label for="slide-dot-3"></label>
+                <label for="slide-dot-4"></label>
+                <label for="slide-dot-5"></label>
+                <label for="slide-dot-6"></label>
+                <label for="slide-dot-7"></label>
+                <label for="slide-dot-8"></label>
+                <label for="slide-dot-9"></label>
+            </div>
+            <div>
+                <input class="slide-input" id="slide-dot-1" type="radio" name="slides" checked> 
+                <img class="slide-img" src="https://img.pokemondb.net/sprites/home/normal/bulbasaur.png" alt="Bulbasaur">
+
+                <input class="slide-input" id="slide-dot-2" type="radio" name="slides" checked> 
+                <img class="slide-img" src="https://img.pokemondb.net/sprites/home/normal/ivysaur.png" alt="Ivysaur">
+
+                <input class="slide-input" id="slide-dot-3" type="radio" name="slides" checked> 
+                <img class="slide-img" src="https://img.pokemondb.net/sprites/home/normal/venusaur.png" alt="Venusaur">
+
+                <input class="slide-input" id="slide-dot-4" type="radio" name="slides" checked> 
+                <img class="slide-img" src="https://img.pokemondb.net/sprites/home/normal/charmander.png" alt="Charmander">
+
+                <input class="slide-input" id="slide-dot-5" type="radio" name="slides" checked> 
+                <img class="slide-img" src="https://img.pokemondb.net/sprites/home/normal/charmeleon.png" alt="Charmeleon">
+
+                <input class="slide-input" id="slide-dot-6" type="radio" name="slides" checked> 
+                <img class="slide-img" src="https://img.pokemondb.net/sprites/home/normal/charizard.png" alt="Charizard">
+
+                <input class="slide-input" id="slide-dot-7" type="radio" name="slides" checked> 
+                <img class="slide-img" src="https://img.pokemondb.net/sprites/home/normal/squirtle.png" alt="Squirtle">
+
+                <input class="slide-input" id="slide-dot-8" type="radio" name="slides" checked> 
+                <img class="slide-img" src="https://img.pokemondb.net/sprites/home/normal/wartortle.png" alt="Wartortle">
+
+                <input class="slide-input" id="slide-dot-9" type="radio" name="slides" checked> 
+                <img class="slide-img" src="https://img.pokemondb.net/sprites/home/normal/blastoise.png" alt="Blastoise">        
+            </div>
+        </div>
+    </main>
+
+    <p>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+                src="http://jigsaw.w3.org/css-validator/images/vcss"
+                alt="CSS Valide !">
+        </a>
+    </p>
+</body>
+</html>
