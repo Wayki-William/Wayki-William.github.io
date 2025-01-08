@@ -1,19 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <script>
-        window.onload = function() {
-            const selectElement = document.getElementById('page-select');
-            
-            const currentPage = window.location.pathname.split('/').pop();
-    
-            for (let i = 0; i < selectElement.options.length; i++) {
-                if (selectElement.options[i].value === currentPage) {
-                    selectElement.selectedIndex = i;
-                    break;
-                }
-            }
-        };
-    </script>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,9 +8,6 @@
     <link id="stylesheet" rel="stylesheet" href="styleslight.css">
     <script src="script.js"></script>
     <link rel="icon" href="images/Oglt.ico"> 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap" rel="stylesheet">
 </head>
 <body>
     <a id="haut"></a>

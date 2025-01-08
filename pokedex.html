@@ -1,19 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <script>
-        window.onload = function() {
-            const selectElement = document.getElementById('page-select');
-            
-            const currentPage = window.location.pathname.split('/').pop();
-    
-            for (let i = 0; i < selectElement.options.length; i++) {
-                if (selectElement.options[i].value === currentPage) {
-                    selectElement.selectedIndex = i;
-                    break;
-                }
-            }
-        };
-    </script>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -38,7 +25,7 @@
         </div>
     </header>
     <main>
-        <h1>Pokédex</h1>
+        <h2>Pokédex</h2>
         <p> Vous retrouverez sur cet page un extrait du <a href="https://www.pokemon.com/fr/pokedex">Pokédex</a></p>
         
         <div class="slider-container">

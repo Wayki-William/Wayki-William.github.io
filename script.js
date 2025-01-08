@@ -1,21 +1,22 @@
 "use strict";
 
+window.onload = function() {
+    const selectElement = document.getElementById('page-select');
+    
+    const currentPage = window.location.pathname.split('/').pop();
 
-function draw() {
-	var canvas = document.getElementById("canvas");
-	if (canvas.getContext) {
-		var ctx = canvas.getContext("2d");
-
-		ctx.fillStyle = "rgb(200, 0, 0)";
-        ctx.fillRect(10, 10, 50, 50);
-
-        ctx.fillStyle = "rgba(0, 0, 200, 0.5)";
-        ctx.fillRect(30, 30, 50, 50);
-	}
+    for (let i = 0; i < selectElement.options.length; i++) {
+        if (selectElement.options[i].value === currentPage) {
+            selectElement.selectedIndex = i;
+            break;
+        }
+    }
 }
+
 function navigateToPage() {
 	const selectElement = document.getElementById('page-select');
     const selectedValue = selectElement.value;
+    console.log('Navigating to:', selectedValue);  // Affiche le chemin sélectionné
     if (selectedValue) {
         window.location.href = selectedValue;
 	}

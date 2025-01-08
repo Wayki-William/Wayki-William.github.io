@@ -1,19 +1,5 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <script>
-        window.onload = function() {
-            const selectElement = document.getElementById('page-select');
-            
-            const currentPage = window.location.pathname.split('/').pop();
-    
-            for (let i = 0; i < selectElement.options.length; i++) {
-                if (selectElement.options[i].value === currentPage) {
-                    selectElement.selectedIndex = i;
-                    break;
-                }
-            }
-        };
-    </script>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -39,7 +25,7 @@
     </header>
 
     <main>
-        <h1>1) Le concept</h1>
+        <h2>1) Le concept</h2>
         <p class="concept-intro">
             Les Pokémons, variant du nom d'origine Pocket Monster (PO.c.KE.t.MON.ster) est un concept créé par le japonais Satoshi Tajiri en 1995. 
             L'univers des pokémons est peuplé d'humains ainsi qu'une très grande variété de créatures, les pokémons, qui sont fortement inspirés de 
@@ -75,7 +61,7 @@
         </p>
         <img src="images/type.png" alt="type">
 
-        <h1>2) Génération</h1>
+        <h2>2) Génération</h2>
 
         <p class="gen">
             Les Pokémons sont séparés en générations, les générations désignent les Pokémons spécifiques à une région. Ces régions sont associées dans 
