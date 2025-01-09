@@ -53,19 +53,19 @@
                 <form id="form" action="mailto:evancoulpotin.sup@gmail.com?content-type=text/html&amp;subject=Site%20Web" method="post" enctype="text/plain">
                     <p>
                         <label for="prenom">Prénom</label>
-                        <input id="prenom" type="text" name="prenom" placeholder="Entrez votre prénom">
+                        <input id="prenom" type="text" name="prenom" placeholder="Entrez votre prénom" required="required">
                         
                         <label for="nom">Nom</label>
-                        <input id="nom" type="text" name="nom" placeholder="Entrez votre nom"><br>
+                        <input id="nom" type="text" name="nom" placeholder="Entrez votre nom" required="required"><br>
                         
-                        <input id="genreHomme" type="radio" name="genre" value="homme">
+                        <input id="genreHomme" type="radio" name="genre" value="homme" required="required">
                         <label for="genreHomme">Homme</label> 
-                        <input id="genreFemme" type="radio" name="genre" value="femme">
+                        <input id="genreFemme" type="radio" name="genre" value="femme" required="required">
                         <label for="genreFemme">Femme</label>
-                        <input id="genreAutre" type="radio" name="genre" value="Autre">
+                        <input id="genreAutre" type="radio" name="genre" value="Autre" required="required">
                         <label for="genreAutre">Autres</label><br>
 
-                        <textarea name="impression" rows="5" cols="50" placeholder="Partagez vos impressions"></textarea>
+                        <textarea name="impression" rows="5" cols="50" placeholder="Partagez vos impressions" required="required"></textarea>
                         
                         <input type="submit" value="Envoyer">
                     </p>
