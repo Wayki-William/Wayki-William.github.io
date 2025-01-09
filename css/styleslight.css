@@ -103,6 +103,8 @@ h1 {
 
 h2 {
   font-size: 200%;
+  text-decoration: underline;
+
 }
 
 .form-main-container {

@@ -8,7 +8,7 @@ body {
 	margin : 0;
 	padding : 0;
 	box-sizing : content-box;
-	background-image: url('../images/background.jpg');
+	background-image: url('../images/background-night.jpg');
   background-size : cover;
   background-attachment: fixed;
   background-position: center;
@@ -103,6 +103,8 @@ h1 {
 
 h2 {
   font-size: 200%;
+  color: #b14e24;
+  text-decoration: underline;
 }
 
 .form-main-container {
